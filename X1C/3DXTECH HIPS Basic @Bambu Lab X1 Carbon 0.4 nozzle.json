@@ -1,0 +1,194 @@
+{
+    "activate_air_filtration": [
+        "0"
+    ],
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "chamber_temperatures": [
+        "0"
+    ],
+    "close_fan_the_first_x_layers": [
+        "3"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1 Carbon 0.4 nozzle"
+    ],
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "complete_print_exhaust_fan_speed": [
+        "70"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "during_print_exhaust_fan_speed": [
+        "70"
+    ],
+    "enable_overhang_bridge_fan": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "95"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "95"
+    ],
+    "fan_cooling_layer_time": [
+        "10"
+    ],
+    "fan_max_speed": [
+        "60"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
+    "filament_deretraction_speed": [
+        "nil"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \nM106 P3 S0\n"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_id": "Pbbd3526",
+    "filament_is_support": [
+        "1"
+    ],
+    "filament_long_retractions_when_cut": [
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "Benefits of 3DXMAX™ HIPS:\nVery good, strong support material\nPrints very easily\nPolymer doesn’t absorb moisture, no drying required!\nCan be removed from models by hand\nCan also be dissolved away with d-limonene\n3DXMAX™ HIPS is another industry favorite support, it works excellent with all the following, and is very popular among makers and the industrial 3D printing industry alike.\nWorks perfectly with many materials, especially the industry’s workhorses like ABS and ASA.\nThis includes all of our famous composite variants of these grades, such as carbon fiber, glass fiber, and ESD-safe.\n\nRecommended Print Settings:\nExtruder: 220-235°C\nBed Temp: 100-110°C\nBed Prep: Magigoo Bed Prep gives us the best results.\nHeated Chamber: Not required\nOther: Most users simply use pliers to mechanically remove HIPS support from their printed models, but d-limonene orange solvent will completely dissolve it.\nDrying Instructions: No drying needed at all!",
+    "filament_retract_before_wipe": [
+        "nil"
+    ],
+    "filament_retract_restart_extra": [
+        "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+        "nil"
+    ],
+    "filament_retraction_distances_when_cut": [
+        "nil"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+        "nil"
+    ],
+    "filament_retraction_speed": [
+        "nil"
+    ],
+    "filament_settings_id": [
+        "3DXTECH HIPS Basic @Bambu Lab X1 Carbon 0.4 nozzle"
+    ],
+    "filament_soluble": [
+        "0"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
+    "filament_vendor": [
+        "3DXTECH"
+    ],
+    "filament_wipe": [
+        "nil"
+    ],
+    "filament_wipe_distance": [
+        "nil"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "filament_z_hop_types": [
+        "nil"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "95"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "95"
+    ],
+    "inherits": "",
+    "name": "3DXTECH HIPS Basic @Bambu Lab X1 Carbon 0.4 nozzle",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "overhang_fan_speed": [
+        "80"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "required_nozzle_HRC": [
+        "3"
+    ],
+    "slow_down_for_layer_cooling": [
+        "1"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "slow_down_min_speed": [
+        "20"
+    ],
+    "temperature_vitrification": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "95"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "95"
+    ],
+    "version": "1.9.0.18"
+}
