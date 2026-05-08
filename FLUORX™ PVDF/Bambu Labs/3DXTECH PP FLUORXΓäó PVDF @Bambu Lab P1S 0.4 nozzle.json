@@ -12,7 +12,7 @@
         "200"
     ],
     "close_fan_the_first_x_layers": [
-        "1"
+        "2"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
@@ -75,10 +75,10 @@
         "30"
     ],
     "fan_max_speed": [
-        "15"
+        "55"
     ],
     "fan_min_speed": [
-        "5"
+        "1"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -99,7 +99,7 @@
         "10"
     ],
     "filament_cost": [
-        "34.99"
+        "250.67"
     ],
     "filament_density": [
         "1.71"
@@ -138,13 +138,13 @@
         "1"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nM106 P3 S0\n"
+        "; filament end gcode \n"
     ],
     "filament_extruder_variant": [
         "Direct Drive Standard"
     ],
     "filament_flow_ratio": [
-        "0.8844"
+        "0.956"
     ],
     "filament_flush_temp": [
         "0"
@@ -160,7 +160,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "4"
+        "1.5"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -248,13 +248,13 @@
         "3DXTECH PP FLUORX™ PVDF @Bambu Lab P1S 0.4 nozzle"
     ],
     "filament_shrink": [
-        "97%"
+        "98.35%"
     ],
     "filament_soluble": [
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        "; filament start gcode\nM900 K0.385 L1000 M10 ; Override pressure advance value, update K as needed"
     ],
     "filament_tower_interface_pre_extrusion_dist": [
         "10"
@@ -332,10 +332,10 @@
         "0"
     ],
     "nozzle_temperature": [
-        "290"
+        "255"
     ],
     "nozzle_temperature_initial_layer": [
-        "290"
+        "255"
     ],
     "nozzle_temperature_range_high": [
         "300"
@@ -344,13 +344,13 @@
         "245"
     ],
     "overhang_fan_speed": [
-        "50"
+        "65"
     ],
     "overhang_fan_threshold": [
-        "0%"
+        "25%"
     ],
     "overhang_threshold_participating_cooling": [
-        "95%"
+        "75%"
     ],
     "override_process_overhang_speed": [
         "0"
@@ -362,7 +362,7 @@
         "0.02"
     ],
     "reduce_fan_stop_start_freq": [
-        "0"
+        "1"
     ],
     "required_nozzle_HRC": [
         "3"
@@ -374,10 +374,10 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "2"
+        "6"
     ],
     "slow_down_min_speed": [
-        "10"
+        "6"
     ],
     "supertack_plate_temp": [
         "0"
@@ -386,7 +386,7 @@
         "0"
     ],
     "temperature_vitrification": [
-        "110"
+        "158"
     ],
     "textured_plate_temp": [
         "100"
