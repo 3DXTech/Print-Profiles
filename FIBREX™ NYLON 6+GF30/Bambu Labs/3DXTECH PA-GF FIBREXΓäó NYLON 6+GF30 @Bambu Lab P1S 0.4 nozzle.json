@@ -5,11 +5,17 @@
     "additional_cooling_fan_speed": [
         "0"
     ],
+    "additional_fan_full_speed_layer": [
+        "0"
+    ],
     "chamber_temperatures": [
         "0"
     ],
     "circle_compensation_speed": [
         "200"
+    ],
+    "close_additional_fan_first_x_layers": [
+        "0"
     ],
     "close_fan_the_first_x_layers": [
         "3"
@@ -72,13 +78,13 @@
         "100"
     ],
     "fan_cooling_layer_time": [
-        "5"
+        "25"
     ],
     "fan_max_speed": [
-        "30"
+        "25"
     ],
     "fan_min_speed": [
-        "10"
+        "5"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -99,10 +105,10 @@
         "10"
     ],
     "filament_cost": [
-        "59.99"
+        "74.67"
     ],
     "filament_density": [
-        "1.14"
+        "1.35"
     ],
     "filament_deretraction_speed": [
         "nil"
@@ -138,7 +144,10 @@
         "1"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nM106 P3 S0\n"
+        "; filament end gcode \n"
+    ],
+    "filament_extruder_compatibility": [
+        "0"
     ],
     "filament_extruder_variant": [
         "Direct Drive Standard"
@@ -147,6 +156,9 @@
         "0.932"
     ],
     "filament_flush_temp": [
+        "0"
+    ],
+    "filament_flush_temp_fast": [
         "0"
     ],
     "filament_flush_volumetric_speed": [
@@ -160,7 +172,10 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "9"
+        "10"
+    ],
+    "filament_metal_stickiness": [
+        "High"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -185,6 +200,9 @@
         "0"
     ],
     "filament_pre_cooling_temperature_nc": [
+        "0"
+    ],
+    "filament_preheat_temperature_delta": [
         "0"
     ],
     "filament_prime_volume": [
@@ -254,7 +272,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        "; Filament gcode\n"
     ],
     "filament_tower_interface_pre_extrusion_dist": [
         "10"
@@ -295,9 +313,12 @@
     "first_x_layer_fan_speed": [
         "0"
     ],
+    "first_x_layer_part_fan_speed": [
+        "0"
+    ],
     "from": "User",
     "full_fan_speed_layer": [
-        "2"
+        "0"
     ],
     "hole_coef_1": [
         "0"
@@ -324,6 +345,9 @@
         "0"
     ],
     "inherits": "",
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "long_retractions_when_ec": [
         "0"
     ],
@@ -332,10 +356,10 @@
         "0"
     ],
     "nozzle_temperature": [
-        "280"
+        "285"
     ],
     "nozzle_temperature_initial_layer": [
-        "280"
+        "285"
     ],
     "nozzle_temperature_range_high": [
         "300"
@@ -347,10 +371,10 @@
         "40"
     ],
     "overhang_fan_threshold": [
-        "0%"
+        "50%"
     ],
     "overhang_threshold_participating_cooling": [
-        "95%"
+        "50%"
     ],
     "override_process_overhang_speed": [
         "0"
@@ -374,7 +398,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "2"
+        "8"
     ],
     "slow_down_min_speed": [
         "20"
@@ -386,7 +410,7 @@
         "0"
     ],
     "temperature_vitrification": [
-        "180"
+        "186"
     ],
     "textured_plate_temp": [
         "100"

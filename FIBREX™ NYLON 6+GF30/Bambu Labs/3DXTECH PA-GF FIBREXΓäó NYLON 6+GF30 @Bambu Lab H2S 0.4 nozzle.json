@@ -9,7 +9,7 @@
         "0"
     ],
     "chamber_temperatures": [
-        "60"
+        "65"
     ],
     "circle_compensation_speed": [
         "200"
@@ -21,7 +21,7 @@
         "3"
     ],
     "compatible_printers": [
-        "Bambu Lab X1 Carbon 0.4 nozzle"
+        "Bambu Lab H2S 0.4 nozzle"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
@@ -87,21 +87,24 @@
         "5"
     ],
     "filament_adaptive_volumetric_speed": [
+        "0",
         "0"
     ],
     "filament_adhesiveness_category": [
         "400"
     ],
     "filament_bridge_speed": [
+        "25",
         "25"
     ],
     "filament_change_length": [
-        "10"
+        "4"
     ],
     "filament_change_length_nc": [
         "10"
     ],
     "filament_cooling_before_tower": [
+        "10",
         "10"
     ],
     "filament_cost": [
@@ -111,57 +114,70 @@
         "1.35"
     ],
     "filament_deretraction_speed": [
+        "nil",
         "nil"
     ],
     "filament_dev_ams_drying_ams_limitations": [
-        ""
+        "1"
     ],
     "filament_dev_ams_drying_heat_distortion_temperature": [
-        "0"
+        "165"
     ],
     "filament_dev_ams_drying_temperature": [
-        "0"
+        "65",
+        "85",
+        "65",
+        "85"
     ],
     "filament_dev_ams_drying_time": [
-        "0"
+        "12",
+        "12",
+        "12",
+        "12"
     ],
     "filament_dev_chamber_drying_bed_temperature": [
-        "0"
+        "90"
     ],
     "filament_dev_chamber_drying_time": [
-        "0"
+        "18"
     ],
     "filament_dev_drying_cooling_temperature": [
-        "0"
+        "150"
     ],
     "filament_dev_drying_softening_temperature": [
-        "0"
+        "150"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "filament_enable_overhang_speed": [
+        "1",
         "1"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \n\n"
+        "; filament end gcode \n"
     ],
     "filament_extruder_compatibility": [
         "0"
     ],
     "filament_extruder_variant": [
-        "Direct Drive Standard"
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
     ],
     "filament_flow_ratio": [
-        "0.932"
+        "0.932",
+        "0.96"
     ],
     "filament_flush_temp": [
+        "0",
         "0"
     ],
     "filament_flush_temp_fast": [
+        "0",
         "0"
     ],
     "filament_flush_volumetric_speed": [
+        "0",
         "0"
     ],
     "filament_id": "P36b7436",
@@ -169,10 +185,12 @@
         "0"
     ],
     "filament_long_retractions_when_cut": [
+        "nil",
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "10"
+        "10",
+        "10.5"
     ],
     "filament_metal_stickiness": [
         "High"
@@ -182,31 +200,39 @@
     ],
     "filament_notes": "",
     "filament_overhang_1_4_speed": [
+        "0",
         "0"
     ],
     "filament_overhang_2_4_speed": [
-        "0"
+        "50",
+        "50"
     ],
     "filament_overhang_3_4_speed": [
-        "0"
+        "30",
+        "30"
     ],
     "filament_overhang_4_4_speed": [
-        "0"
+        "10",
+        "10"
     ],
     "filament_overhang_totally_speed": [
+        "10",
         "10"
     ],
     "filament_pre_cooling_temperature": [
+        "0",
         "0"
     ],
     "filament_pre_cooling_temperature_nc": [
+        "0",
         "0"
     ],
     "filament_preheat_temperature_delta": [
-        "0"
+        "10",
+        "10"
     ],
     "filament_prime_volume": [
-        "45"
+        "30"
     ],
     "filament_prime_volume_nc": [
         "60"
@@ -215,39 +241,51 @@
         "3"
     ],
     "filament_ramming_travel_time": [
+        "0",
         "0"
     ],
     "filament_ramming_travel_time_nc": [
+        "0",
         "0"
     ],
     "filament_ramming_volumetric_speed": [
+        "-1",
         "-1"
     ],
     "filament_ramming_volumetric_speed_nc": [
+        "-1",
         "-1"
     ],
     "filament_retract_before_wipe": [
+        "nil",
         "nil"
     ],
     "filament_retract_length_nc": [
-        "10"
+        "14",
+        "14"
     ],
     "filament_retract_restart_extra": [
+        "nil",
         "nil"
     ],
     "filament_retract_when_changing_layer": [
+        "nil",
         "nil"
     ],
     "filament_retraction_distances_when_cut": [
+        "nil",
         "nil"
     ],
     "filament_retraction_length": [
+        "nil",
         "nil"
     ],
     "filament_retraction_minimum_travel": [
+        "nil",
         "nil"
     ],
     "filament_retraction_speed": [
+        "nil",
         "nil"
     ],
     "filament_scarf_gap": [
@@ -263,7 +301,7 @@
         "none"
     ],
     "filament_settings_id": [
-        "3DXTECH PA-GF FIBREX™ NYLON 6+GF30 @Bambu Lab X1 Carbon 0.4 nozzle"
+        "3DXTECH PA-GF FIBREX™ NYLON 6+GF30 @Bambu Lab H2S 0.4 nozzle"
     ],
     "filament_shrink": [
         "100%"
@@ -272,7 +310,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n"
+        "; filament start gcode\n"
     ],
     "filament_tower_interface_pre_extrusion_dist": [
         "10"
@@ -299,15 +337,19 @@
         "3DXTECH"
     ],
     "filament_wipe": [
+        "nil",
         "nil"
     ],
     "filament_wipe_distance": [
+        "nil",
         "nil"
     ],
     "filament_z_hop": [
+        "nil",
         "nil"
     ],
     "filament_z_hop_types": [
+        "nil",
         "nil"
     ],
     "first_x_layer_fan_speed": [
@@ -349,17 +391,20 @@
         "-1"
     ],
     "long_retractions_when_ec": [
+        "0",
         "0"
     ],
-    "name": "3DXTECH PA-GF FIBREX™ NYLON 6+GF30 @Bambu Lab X1 Carbon 0.4 nozzle",
+    "name": "3DXTECH PA-GF FIBREX™ NYLON 6+GF30 @Bambu Lab H2S 0.4 nozzle",
     "no_slow_down_for_cooling_on_outwalls": [
         "0"
     ],
     "nozzle_temperature": [
-        "285"
+        "285",
+        "265"
     ],
     "nozzle_temperature_initial_layer": [
-        "285"
+        "285",
+        "265"
     ],
     "nozzle_temperature_range_high": [
         "300"
@@ -377,6 +422,7 @@
         "50%"
     ],
     "override_process_overhang_speed": [
+        "0",
         "0"
     ],
     "pre_start_fan_time": [
@@ -392,6 +438,7 @@
         "40"
     ],
     "retraction_distances_when_ec": [
+        "0",
         "0"
     ],
     "slow_down_for_layer_cooling": [
@@ -401,6 +448,7 @@
         "8"
     ],
     "slow_down_min_speed": [
+        "20",
         "20"
     ],
     "supertack_plate_temp": [
@@ -418,8 +466,9 @@
     "textured_plate_temp_initial_layer": [
         "100"
     ],
-    "version": "2.1.0.18",
+    "version": "2.7.0.8",
     "volumetric_speed_coefficients": [
-        ""
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0"
     ]
 }
