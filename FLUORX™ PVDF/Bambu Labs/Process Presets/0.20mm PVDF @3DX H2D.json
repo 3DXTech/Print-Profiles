@@ -1,0 +1,147 @@
+{
+    "bridge_flow": "1.33",
+    "brim_object_gap": "0",
+    "brim_type": "outer_and_inner",
+    "brim_width": "10",
+    "default_acceleration": [
+        "6500",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "elefant_foot_compensation": "0.08",
+    "from": "User",
+    "gap_infill_speed": [
+        "50",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "infill_wall_overlap": "35%",
+    "inherits": "0.20mm Standard @BBL H2D",
+    "initial_layer_infill_speed": [
+        "40",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "initial_layer_speed": [
+        "30",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "initial_layer_travel_acceleration": [
+        "5000",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "inner_wall_speed": [
+        "50",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "internal_solid_infill_speed": [
+        "40",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "name": "0.20mm PVDF @3DX H2D",
+    "only_one_wall_first_layer": "1",
+    "outer_wall_acceleration": [
+        "3500",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "outer_wall_speed": [
+        "30",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "print_extruder_id": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive TPU High Flow"
+    ],
+    "print_settings_id": "0.20mm PVDF @3DX H2D",
+    "sparse_infill_pattern": "3dhoneycomb",
+    "sparse_infill_speed": [
+        "75",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "support_interface_speed": [
+        "40",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "support_interface_top_layers": "3",
+    "support_on_build_plate_only": "1",
+    "support_speed": [
+        "50",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "top_shell_layers": "4",
+    "top_surface_acceleration": [
+        "1250",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "top_surface_pattern": "monotonic",
+    "top_surface_speed": [
+        "30",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "travel_acceleration": [
+        "8000",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "travel_speed": [
+        "350",
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "version": "2.2.0.3",
+    "wall_generator": "arachne",
+    "wall_loops": "3"
+}
