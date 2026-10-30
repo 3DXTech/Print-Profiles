@@ -304,7 +304,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode"
+        "; filament start gcode\nM900 K0.054 L1000 M10 ; Override pressure advance value, update K as needed"
     ],
     "filament_tower_interface_pre_extrusion_dist": [
         "10"
