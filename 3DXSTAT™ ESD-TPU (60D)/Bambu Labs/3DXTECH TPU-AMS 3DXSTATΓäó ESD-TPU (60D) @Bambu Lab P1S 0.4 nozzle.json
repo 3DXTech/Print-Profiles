@@ -1,8 +1,11 @@
 {
     "activate_air_filtration": [
-        "1"
+        "0"
     ],
     "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "additional_fan_full_speed_layer": [
         "0"
     ],
     "chamber_temperatures": [
@@ -11,8 +14,14 @@
     "circle_compensation_speed": [
         "200"
     ],
+    "close_additional_fan_first_x_layers": [
+        "1"
+    ],
     "close_fan_the_first_x_layers": [
-        "3"
+        "2"
+    ],
+    "close_optional_fan_first_x_layers": [
+        "1"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
@@ -39,16 +48,16 @@
         "0"
     ],
     "counter_coef_2": [
-        "0.025"
+        "0.008"
     ],
     "counter_coef_3": [
-        "-0.11"
+        "-0.041"
     ],
     "counter_limit_max": [
-        "0.05"
+        "0.033"
     ],
     "counter_limit_min": [
-        "-0.04"
+        "-0.035"
     ],
     "default_filament_colour": [
         ""
@@ -72,21 +81,23 @@
         "60"
     ],
     "fan_cooling_layer_time": [
-        "65"
+        "30"
     ],
     "fan_max_speed": [
-        "85"
-    ],
-    "fan_min_speed": [
         "20"
     ],
+    "fan_min_speed": [
+        "0"
+    ],
     "filament_adaptive_volumetric_speed": [
+        "0",
         "0"
     ],
     "filament_adhesiveness_category": [
-        "0"
+        "600"
     ],
     "filament_bridge_speed": [
+        "25",
         "25"
     ],
     "filament_change_length": [
@@ -96,96 +107,141 @@
         "10"
     ],
     "filament_cooling_before_tower": [
-        "10"
+        "0",
+        "0"
     ],
     "filament_cost": [
-        "186.67"
+        "200"
     ],
     "filament_density": [
-        "1.01"
+        "1.18"
     ],
     "filament_deretraction_speed": [
+        "nil",
         "nil"
     ],
     "filament_dev_ams_drying_ams_limitations": [
-        ""
+        "1"
     ],
     "filament_dev_ams_drying_heat_distortion_temperature": [
-        "0"
+        "45"
     ],
     "filament_dev_ams_drying_temperature": [
-        "0"
+        "65",
+        "75",
+        "45",
+        "45"
     ],
     "filament_dev_ams_drying_time": [
-        "0"
+        "12",
+        "18",
+        "12",
+        "18"
     ],
     "filament_dev_chamber_drying_bed_temperature": [
-        "0"
+        "90"
     ],
     "filament_dev_chamber_drying_time": [
-        "0"
+        "16"
     ],
     "filament_dev_drying_cooling_temperature": [
-        "0"
+        "40"
     ],
     "filament_dev_drying_softening_temperature": [
-        "0"
+        "50"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "filament_enable_overhang_speed": [
+        "1",
         "1"
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_extruder_compatibility": [
+        "0"
+    ],
     "filament_extruder_variant": [
-        "Direct Drive Standard"
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
     ],
     "filament_flow_ratio": [
-        "1.035"
+        "0.952",
+        "0.97"
     ],
     "filament_flush_temp": [
+        "0",
+        "0"
+    ],
+    "filament_flush_temp_fast": [
+        "0",
         "0"
     ],
     "filament_flush_volumetric_speed": [
+        "0",
         "0"
     ],
-    "filament_id": "P57fc7ff",
+    "filament_id": "P70fbaed",
+    "filament_idle_travel_cooling_enabled": [
+        "1"
+    ],
     "filament_is_support": [
         "0"
     ],
     "filament_long_retractions_when_cut": [
+        "nil",
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "6"
+        "4",
+        "18"
+    ],
+    "filament_metal_stickiness": [
+        "High"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
     ],
-    "filament_notes": "\"\"",
+    "filament_notes": "",
     "filament_overhang_1_4_speed": [
+        "0",
         "0"
     ],
     "filament_overhang_2_4_speed": [
-        "0"
+        "50",
+        "50"
     ],
     "filament_overhang_3_4_speed": [
-        "0"
+        "30",
+        "30"
     ],
     "filament_overhang_4_4_speed": [
-        "0"
+        "10",
+        "10"
     ],
     "filament_overhang_totally_speed": [
+        "10",
         "10"
     ],
     "filament_pre_cooling_temperature": [
+        "0",
         "0"
     ],
     "filament_pre_cooling_temperature_nc": [
+        "0",
         "0"
+    ],
+    "filament_pre_heating_enabled": [
+        "1"
+    ],
+    "filament_preheat_temperature_delta": [
+        "10",
+        "10"
+    ],
+    "filament_prime_tower_speed_factor_curve": [
+        ""
     ],
     "filament_prime_volume": [
         "45"
@@ -197,46 +253,66 @@
         "3"
     ],
     "filament_ramming_travel_time": [
+        "0",
         "0"
     ],
     "filament_ramming_travel_time_nc": [
+        "0",
         "0"
     ],
     "filament_ramming_volumetric_speed": [
+        "-1",
         "-1"
     ],
     "filament_ramming_volumetric_speed_nc": [
+        "-1",
         "-1"
     ],
     "filament_retract_before_wipe": [
+        "nil",
         "nil"
     ],
     "filament_retract_length_nc": [
-        "10"
+        "14",
+        "14"
+    ],
+    "filament_retract_length_toolchange": [
+        "nil",
+        "nil"
     ],
     "filament_retract_restart_extra": [
+        "nil",
+        "nil"
+    ],
+    "filament_retract_restart_extra_toolchange": [
+        "nil",
         "nil"
     ],
     "filament_retract_when_changing_layer": [
+        "nil",
         "nil"
     ],
     "filament_retraction_distances_when_cut": [
+        "nil",
         "nil"
     ],
     "filament_retraction_length": [
-        "nil"
+        "0.4",
+        "0.4"
     ],
     "filament_retraction_minimum_travel": [
+        "nil",
         "nil"
     ],
     "filament_retraction_speed": [
+        "20",
         "nil"
     ],
     "filament_scarf_gap": [
-        "0"
+        "0%"
     ],
     "filament_scarf_height": [
-        "0%"
+        "10%"
     ],
     "filament_scarf_length": [
         "10"
@@ -245,16 +321,16 @@
         "none"
     ],
     "filament_settings_id": [
-        "3DXTECH PA 3DXLABS™ PEBA 90A @Bambu Lab P1S 0.4 nozzle"
+        "3DXTECH TPU-AMS 3DXSTAT™ ESD-TPU (60D) @Bambu Lab P1S 0.4 nozzle"
     ],
     "filament_shrink": [
-        "99.12%"
+        "99.34%"
     ],
     "filament_soluble": [
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\nM900 K0.300 L1000 M10 ; Override pressure advance value, update K as needed"
+        "; filament start gcode\nM900 K0.275 L1000 M10 ; Override pressure advance value, update K as needed"
     ],
     "filament_tower_interface_pre_extrusion_dist": [
         "10"
@@ -272,7 +348,7 @@
         "4"
     ],
     "filament_type": [
-        "PA"
+        "TPU-AMS"
     ],
     "filament_velocity_adaptation_factor": [
         "1"
@@ -281,18 +357,31 @@
         "3DXTECH"
     ],
     "filament_wipe": [
+        "nil",
         "nil"
     ],
     "filament_wipe_distance": [
+        "nil",
         "nil"
     ],
     "filament_z_hop": [
+        "nil",
         "nil"
     ],
     "filament_z_hop_types": [
+        "nil",
         "nil"
     ],
+    "fins_extrude_safe_temp": [
+        "0"
+    ],
     "first_x_layer_fan_speed": [
+        "0"
+    ],
+    "first_x_layer_optional_fan_speed": [
+        "0"
+    ],
+    "first_x_layer_part_fan_speed": [
         "0"
     ],
     "from": "User",
@@ -303,16 +392,16 @@
         "0"
     ],
     "hole_coef_2": [
-        "-0.025"
+        "-0.008"
     ],
     "hole_coef_3": [
-        "0.28"
+        "0.23415"
     ],
     "hole_limit_max": [
-        "0.25"
+        "0.22"
     ],
     "hole_limit_min": [
-        "0.08"
+        "0.088"
     ],
     "hot_plate_temp": [
         "60"
@@ -321,38 +410,54 @@
         "60"
     ],
     "impact_strength_z": [
-        "0"
+        "9.6"
     ],
     "inherits": "",
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "long_retractions_when_ec": [
+        "0",
         "0"
     ],
-    "name": "3DXTECH PA 3DXLABS™ PEBA 90A @Bambu Lab P1S 0.4 nozzle",
+    "min_temperature_when_ec": [
+        "-1"
+    ],
+    "name": "3DXTECH TPU-AMS 3DXSTAT™ ESD-TPU (60D) @Bambu Lab P1S 0.4 nozzle",
     "no_slow_down_for_cooling_on_outwalls": [
         "0"
     ],
     "nozzle_temperature": [
-        "225"
+        "230",
+        "230"
     ],
     "nozzle_temperature_initial_layer": [
-        "225"
+        "230",
+        "230"
     ],
     "nozzle_temperature_range_high": [
         "240"
     ],
     "nozzle_temperature_range_low": [
-        "215"
+        "220"
+    ],
+    "optional_cooling_fan_speed": [
+        "0"
+    ],
+    "optional_fan_full_speed_layer": [
+        "0"
     ],
     "overhang_fan_speed": [
-        "100"
+        "50"
     ],
     "overhang_fan_threshold": [
-        "10%"
+        "50%"
     ],
     "overhang_threshold_participating_cooling": [
         "95%"
     ],
     "override_process_overhang_speed": [
+        "0",
         "0"
     ],
     "pre_start_fan_time": [
@@ -368,15 +473,17 @@
         "3"
     ],
     "retraction_distances_when_ec": [
-        "10"
+        "0",
+        "0"
     ],
     "slow_down_for_layer_cooling": [
         "1"
     ],
     "slow_down_layer_time": [
-        "6"
+        "10"
     ],
     "slow_down_min_speed": [
+        "10",
         "10"
     ],
     "supertack_plate_temp": [
@@ -386,7 +493,7 @@
         "0"
     ],
     "temperature_vitrification": [
-        "140"
+        "30"
     ],
     "textured_plate_temp": [
         "60"
@@ -394,8 +501,9 @@
     "textured_plate_temp_initial_layer": [
         "60"
     ],
-    "version": "1.9.0.18",
+    "version": "2.8.0.6",
     "volumetric_speed_coefficients": [
-        ""
+        "0 0 0 0 0 0",
+        "0 0 0 0 0 0"
     ]
 }
